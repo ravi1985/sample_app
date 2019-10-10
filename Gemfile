@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.0'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '~> 1.4'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -62,3 +62,4 @@ group :production do
 end
 
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.1.2'
